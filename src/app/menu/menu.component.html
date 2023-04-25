@@ -1,0 +1,12 @@
+<mat-toolbar class="tlbar">
+    <mat-toolbar-row>
+      <div>
+        <a mat-button [routerLink]="'/userinformation'"> User Information </a>|
+        <a mat-button [routerLink]="'/aboutus'"> About Us </a>|
+        <a mat-button [routerLink]="'/contact'"> Contact </a>        
+      </div>
+      <div class="currentDate">
+        {{currentDate | date}}
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
